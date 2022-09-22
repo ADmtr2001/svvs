@@ -58,7 +58,8 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "options": {
         "browserTarget": "frontend-admin:build",
-        "port": 4201
+        "port": 4201,
+        "proxyConfig": "apps/frontend/admin/proxy.conf.json"
       },
       "configurations": {
         "production": {
@@ -94,5 +95,5 @@
       }
     }
   },
-  "tags": ["scope:frontend-admin"]
+  "tags": ["scope:frontend-admin", "type:app"]
 }
