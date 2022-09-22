@@ -55,5 +55,5 @@
       }
     }
   },
-  "tags": ["type:app"]
+  "tags": ["scope:backend-api", "type:app"]
 }
